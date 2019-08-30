@@ -51,6 +51,4 @@ func main() {
 	g.PlayerBGetPoint()
 	g.PlayerBGetPoint()
 	g.CurrentScore()
-
-	//88
 }
