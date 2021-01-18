@@ -47,7 +47,6 @@ func retrieveData() []byte {
   if err != nil {
     fmt.Println(err)
   }
-  //fmt.Println(string(body))
   return body
 }
 
@@ -99,17 +98,8 @@ func main() {
   fmt.Println("Going sort")
   people := people1.Entry
   sort.SliceStable(people, func(i, j int) bool { return people[i].Name < people[j].Name })
-  //fmt.Println("By name :", people)
   
   for _, k := range people {
 		fmt.Println(k.Name,"\t", k.Value)
 	}
-  
-  //fmt.Printf("Results: %v\n", data.access_token)
-	
-  //fmt.Println(string(body))
-  /*foo1 := new(Apigee)
-  json.NewDecoder(res.Body).Decode(foo1)
-  fmt.Println(foo1.access_token)*/
-
 }
