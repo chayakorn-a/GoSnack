@@ -1,4 +1,4 @@
-FROM docker.artifactory.kasikornbank.com:8443/alpine:3.11
+FROM golang:1.11
 
 RUN mkdir -p /go/exe
 WORKDIR /go/exe
