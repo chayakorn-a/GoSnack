@@ -1,4 +1,4 @@
-module github.com/chayakorn-a/GoDB2
+module GoDB2
 
 go 1.12
 

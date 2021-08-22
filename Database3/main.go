@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"
-	"Workshop1/Database3/TodosSQL"
+	//"Workshop1/Database3/TodosSQL"
 )
 
 // On git Bash
