@@ -21,7 +21,7 @@ func main() {
 	r.PUT("/todos/:id", updateTodoHandler) // UpdateTodoTable
 */
 	r.POST("/sync", CreateSyncHandler)
-	r.Run(":1234")
+	r.Run(":8080")
 }
 
 func CreateSyncHandler(c *gin.Context) {
